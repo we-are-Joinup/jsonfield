@@ -2,14 +2,14 @@ from setuptools import setup
 
 
 setup(
-    name='jsonfield',
-    version='2.1.1',
+    name='jsonfield-joinup',
+    version='2.1.2',
     packages=['jsonfield'],
     license='MIT',
     include_package_data=True,
-    author='Dan Koch',
-    author_email='dmkoch@gmail.com',
-    url='https://github.com/dmkoch/django-jsonfield/',
+    author='Joinup',
+    author_email='desarrollo@joinup.es',
+    url='https://github.com/we-are-Joinup/jsonfield',
     description='A reusable Django field that allows you to store validated JSON in your model.',
     long_description=open("README.rst").read(),
     install_requires=['Django >= 1.11', 'six'],
